@@ -27,7 +27,7 @@ This project is the first Conversation-as-a-Platform (CaaP) implementation at �
 - Çağatay Eralp - Software Development Engineer | Dogus Teknoloji
 - Çiğdem Örer - Project Manager | Dogus Teknoloji
 
-<img src="images/dogusvdf/photo1.jpg" alt="Dogus Teknoloji VDF Fleet Team">
+<img src="images/dogusvdf/photo1.JPG" alt="Dogus Teknoloji VDF Fleet Team">
 
 ## Customer profile ##
 [Doğuş Teknoloji](http://www.d-teknoloji.com.tr)  began its activities as a part of the [Dogus Group](https://www.dogusgrubu.com.tr/en/corporate-profile) companies in 2012. Since then, it has remained an innovative, solution-oriented and dynamic company ensuring customer satisfaction through high-quality, value-added products and services at the lowest costs possible.
@@ -47,7 +47,7 @@ The main areas of Doğuş Teknoloji’s expertise include designing software and
 
 As Doğuş Teknoloji we develop products for [Dogus Group](https://www.dogusgrubu.com.tr/en/corporate-profile) companies in 9 different sectors. (Automotive, finance, tourism, construction, energy, retail, food & beverage, media, real estate). In our products, we need to communicate with our users through different channels, and improve user experience. The use of chatbots and voice command systems is at the forefront, as the user experience on mobile is different from other devices. As Doğuş Technology, we have a goal of creating an infrastructure that we can spread to our pilot projects and then to our products in all sectors. We intend to use Doğuş Otomotiv's “Diyalog”(Road Assistance) application as a pilot in the B2C field and VDF “Fleet ERP”(Operational Fleet Car Rental) application in the B2B field.
 
-<img src="images/dogusvdf/photo2.jpg" alt="Dogus Teknoloji VDF Fleet Team">
+<img src="images/dogusvdf/photo2.JPG" alt="Dogus Teknoloji VDF Fleet Team">
 
 ## Solution and steps ##
 
@@ -90,7 +90,7 @@ There are three major services helped a lot to make bot smarter:
 2. **Translator Text API:** Used for translating Turkish question to English to retrieve intents and entities via Luis.ai
 2. **Custom Vision API:** Used for recognizing car model and car brand in real life with photos
 
-<img src="images/dogusvdf/luisFlow.png" alt="Dogus Teknoloji VDF Fleet LUIS & Translator Text API Integration"> 
+<img src="images/dogusvdf/LuisFlow.png" alt="Dogus Teknoloji VDF Fleet LUIS & Translator Text API Integration"> 
 
 ### Translator Text API
 
@@ -237,7 +237,7 @@ Conversational intelligence feature of a bot is important for users to have a na
 
 One of the key problems in human-computer interactions is the ability of the computer to understand what a person wants. Language Understanding Intelligent Service (LUIS) enables developers to build smart applications that can understand human language and react accordingly to user requests. LUIS uses the power of machine learning to solve the difficult problem of extracting meaning from natural language input, so that your application doesn't have to. Any client application that converses with users, like a dialog system or a chat bot, can pass user input to a LUIS app and receive results that provide natural language understanding.
 
-<img src="images/dogusvdf/luisFlow.png" alt="Dogus Teknoloji VDF Fleet LUIS & Translator Text API Integration"> 
+<img src="images/dogusvdf/LuisFlow.png" alt="Dogus Teknoloji VDF Fleet LUIS & Translator Text API Integration"> 
 
 A LUIS app is a place for a developer to define a custom language model. The output of a LUIS app is a web service with an HTTP endpoint that you reference from your client application to add natural language understanding to it. A LUIS app takes a user utterance and extracts intents and entities that correspond to activities in the client application’s logic. Your client application can then take appropriate action based on the user intentions that LUIS recognizes.
 
@@ -508,7 +508,7 @@ namespace Assistant.Business
 
 Custom Vision API result in a chat-bot: When you upload a photo of a car, Custom Vision API recognizes which brand and model it's. Then you can get an offer regarding that sepesific car.
 
-<img src="images/dogusvdf/customvision.png" width="600" alt="Custom Vision API"> 
+<img src="images/dogusvdf/customvision.PNG" width="600" alt="Custom Vision API"> 
 
 
 
@@ -720,19 +720,19 @@ Dogus Teknoloji successfuly published VDF chat-bot application on Facebook Messe
 
 1. Bot has capabilies of starting a conversation, when you say "I want to rent car" or any realted centences in Turkish. Then step by step bot is using Multi Dialog form to get all necessary information such as `'Brand'`, `'Model'`, `'Mile Age'`, `'Term'`, `'Currency'`, `'Tire Type'` and `'Ticket type for Toll Gates'`. At the end of the conversation it calculates and bring the best offer to users.
 
-<img src="images/dogusvdf/fbmessengerBot.png" alt="Dogus Teknoloji VDF Fleet Skype Canvas integration">
+<img src="images/dogusvdf/fbmessengerBot.PNG" alt="Dogus Teknoloji VDF Fleet Skype Canvas integration">
 
 2. When you give some of entities in a sentence, chat-bot is completing all must have information. Such as below When you say "I want Audi A3 with 10K km for 24 months" in Turkish it extracts `'Brand'`, `'Model'`, `'Mile Age'`, `'Term'` entities then chat bot is asking for `'Currency'`, `'Tire Type'` and `'Ticket type for Toll Gates'`.
 
-<img src="images/dogusvdf/fbmessengerBot1.png" alt="Dogus Teknoloji VDF Fleet Skype Canvas integration"> 
+<img src="images/dogusvdf/fbmessengerBot1.PNG" alt="Dogus Teknoloji VDF Fleet Skype Canvas integration"> 
 
 3. When you say `"I love you"`, `"I miss you"` bot replies with funny answers in Turkish. Also when you say `"Thank you"` and `"Please can you help me"` in Turkish Bot replies with related answers. These triggered via LUIS.
 
-<img src="images/dogusvdf/fbmessengerCustomDialog.png" alt="Dogus Teknoloji VDF Fleet Skype Canvas integration">
+<img src="images/dogusvdf/fbmessengerCustomDialog.PNG" alt="Dogus Teknoloji VDF Fleet Skype Canvas integration">
 
 After these integrations, Cognitive Services and LUIS brings intelligence to Bot and users have seamless experience in their native language.
 
-<img src="images/dogusvdf/photo3.jpg" alt="Dogus Teknoloji VDF Fleet Team">
+<img src="images/dogusvdf/photo3.JPG" alt="Dogus Teknoloji VDF Fleet Team">
 
 
 > "In this implementation we're excited to use LUIS.ai for improving intelligence of the bot also we've used recently announced technolgies like Azure CosmosDB and Custom Vision Services. Using these technologies helped us to gain our Cognitive and AI skills for future projects." - Ünal Karakuş, Team Leader
